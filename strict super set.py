@@ -1,0 +1,9 @@
+for i in range(int(input())):
+    if A.issuperset(set(input().split())):
+        COUNT += 1
+    else:
+        VALUE += 1
+if VALUE != 0:
+    print('False')
+else:
+    print('True')
